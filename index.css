@@ -3,18 +3,17 @@
 body {
   background: #222;
   font-family: Open Sans;
-  font-size: 50px;
+  /* font-size: 50px; */
   color: #222;
 }
-.outer
-{
-    display: flex;
-    flex-wrap: wrap;
-    /* border: solid 1px white; */
-    height: 96vh;
-    align-items: flex-start;
-    justify-content: space-around;
-    /* grid-template-columns: 30px 200px auto 100px; */
+.outer {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: solid 1px white; */
+  height: 96vh;
+  align-items: flex-start;
+  justify-content: space-around;
+  /* grid-template-columns: 30px 200px auto 100px; */
 }
 
 label {
@@ -27,11 +26,6 @@ label {
   border-radius: 4px;
   height: 200px;
   margin: 1%;
-  /* position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); */
   cursor: pointer;
 }
 
@@ -55,14 +49,24 @@ label {
   line-height: 200px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border-radius: 2px;
+  border-radius: 6px;
 }
 
 .card .back {
   background: #faa41a;
-  color: #fff;
+  color: #222;
   -webkit-transform: rotateX(180deg);
   transform: rotateX(180deg);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 4px; */
+}
+.front {
+  font-size: 50px;
 }
 
 label:hover .card {
