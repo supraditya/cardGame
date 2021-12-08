@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-  background: #f17563;
+  background: #222;
   font-family: Open Sans;
   font-size: 50px;
   color: #222;
@@ -24,6 +24,7 @@ label {
   transform-style: preserve-3d;
   display: block;
   width: 300px;
+  border-radius: 4px;
   height: 200px;
   margin: 1%;
   /* position: absolute;
@@ -58,7 +59,7 @@ label {
 }
 
 .card .back {
-  background: #222;
+  background: #faa41a;
   color: #fff;
   -webkit-transform: rotateX(180deg);
   transform: rotateX(180deg);
